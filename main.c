@@ -2,7 +2,12 @@
 #include <math.h>
 
 
-// This is where you add the function calculate_hypotenuse
+float calculate_hypotenuse (float leg_a, float leg_b) {
+
+    float hypotenuse = sqrt(pow(leg_a, 2) + pow(leg_b, 2));
+
+    return hypotenuse;
+}
 
 int main() {
     float a = 3.0;
